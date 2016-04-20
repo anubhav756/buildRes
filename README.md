@@ -22,10 +22,10 @@ res.buildRes({
 next();
 ```
 
-## Configuration object defaults
-	- ```status```: 200
-	- ```headers ```: {}
-	- ```message```: Accorging to the status code
+### Configuration object defaults
+* ```status```: 200
+* ```headers ```: {}
+* ```message```: Accorging to the status code
 
 ### Example
 ```sh
