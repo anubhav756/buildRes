@@ -23,9 +23,9 @@ next();
 ```
 
 ## Configuration object defaults
-```status```: 200,\n
-```headers ```: {},\n
-```message```: Accorging to the status code
+	- ```status```: 200
+	- ```headers ```: {}
+	- ```message```: Accorging to the status code
 
 ### Example
 ```sh
