@@ -11,7 +11,7 @@ app.use(users, '/users');
 
 app.use(require('./lib/buildRes'));
 ```
-Now, specify the response's configuration in the respose object, as a property ```sh buildRes ```, and then call ```sh next() ```
+Now, specify the response's configuration in the respose object, as a property ```buildRes```, and then call ```next()```
 ```sh
 ...
 
@@ -23,9 +23,9 @@ next();
 ```
 
 ## Configuration object defaults
-```sh status ```: 200,
-```sh headers ```: {},
-```sh message ```: Accorging to the status code
+```status```: 200,\n
+```headers ```: {},\n
+```message```: Accorging to the status code
 
 ### Example
 ```sh
